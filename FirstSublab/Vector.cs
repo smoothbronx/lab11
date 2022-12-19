@@ -2,10 +2,10 @@
 
 public class Vector
 {
-    private int startXCoord;
-    private int startYCoord;
-    private int endXCoord;
-    private int endYCoord;
+    protected int startXCoord;
+    protected int startYCoord;
+    protected int endXCoord;
+    protected int endYCoord;
 
     public Vector(int startXCoord, int startYCoord, int endXCoord, int endYCoord)
     {
